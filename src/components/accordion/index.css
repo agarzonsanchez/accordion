@@ -1,0 +1,27 @@
+.mainDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainCard {
+  padding: 15px;
+  border: 1px solid #dcf2f1;
+  border-radius: 10px;
+  background-color: #dcf2f1;
+}
+
+.buttonStyle {
+  font-size: 16px;
+  background-color: #7fc7d9;
+  color: #0f1035;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #7fc7d9;
+}
+
+.buttonStyle:hover {
+  background-color: #365486;
+  color: #0f1035;
+  cursor: pointer;
+}
