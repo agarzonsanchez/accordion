@@ -1,4 +1,7 @@
 .accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
   border: 1px solid #1736f5;
   background-color: #1736f5;
@@ -9,9 +12,29 @@
 
 .button-item {
   text-align: center;
+  width: 600px;
   padding: 10px;
-  margin: 100px;
+  margin: 50px;
   background-color: #ffc709;
   border-radius: 15px;
   box-shadow: 0 10px 10px 0 #808080;
+}
+.button-item:hover {
+  background-color: #b89216;
+}
+
+.button-selector {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+  background-color: #dedede;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0 #808080;
+  width: 200px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.button-selector:hover {
+  background-color: #808080;
 }
